@@ -5,13 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
-    <h2 class="text-4xl text-red-600 bg-red-500">Al Zami</h2>
-    <p class=""></p>
-    <h2 class=""></h2>
+    <header class="bg-white mx-5 md:mx-12 lg:mx-10 xl:mx-44">
+        <div class="navbar flex justify-between">
+            <div class="navbar-start w-screen md:w-auto flex justify-between flex-row-reverse">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-20 shadow mx-auto">
+                        <li><a>Item 1</a></li>
+                        <li><a>Item 3</a></li>
+                    </ul>
+                </div>
+             
+                    <h2 class="flex items-center gap-3"><i
+                            class="fa-solid fa-up-right-from-square text-sm bg-[#ABEF5F] rounded-full p-2"></i> <span
+                            class="font-extrabold text-3xl ">Rinterio</span></h2>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+            <div class=" hidden md:flex gap-5">
+                <i class="fa-solid fa-magnifying-glass text-xl"></i>
+                <i class="fa-solid fa-cart-shopping text-xl"></i>
+                <button class="btn rounded-3xl py-2 px-6 bg-[#ABEF5F] font-bold">Book Consult
+                    <i class="fa-solid fa-up-right-from-square text-xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
